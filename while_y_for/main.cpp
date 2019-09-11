@@ -31,14 +31,14 @@ int main()
     if (NoEncontre==true)
         cout << n << " no es potencia de 2" << endl;
 
-    //implemente un programa que reciba un número e indique  si dicho número es primo o no. WHILE-FOR
+    //implemente un programa que reciba un nÃºmero e indique  si dicho nÃºmero es primo o no. WHILE-FOR
 
-    cout<< "(FOR)coloque un numero para evaluar si es un número primo:  ";
+    cout<< "(FOR)coloque un numero para evaluar si es un nÃºmero primo:  ";
 
     int m ;
     cin >>m;
     float esPrimo = true;
-    for (int divisor=2; divisor!=m && esPrimo && m>0; ++divisor)
+    for (int divisor=2; divisor!=m && esPrimo && m>0; divisor++)
     {
           if(m%divisor==0)
         {
@@ -49,7 +49,7 @@ int main()
     if (esPrimo==true && m>0)
         cout << m << " es primo" << endl;
 
-    cout<< "(WHILE)coloque un numero para evaluar si es un número primo:  ";
+    cout<< "(WHILE)coloque un numero para evaluar si es un nÃºmero primo:  ";
 
     cin >> m;
     esPrimo = true;
@@ -66,7 +66,7 @@ int main()
     if (esPrimo==true && m>0)
         cout << m << " es primo" << endl;
 
-    //implemente un programa que imprima los números primos menores a 100. WHILE-FOR
+    //implemente un programa que imprima los nÃºmeros primos menores a 100. WHILE-FOR
 
     cout << "(FOR)primos menores que 100(FOR)"<<endl;
     cout << "2" <<'\t';
@@ -117,11 +117,11 @@ int main()
 
 
     cout<<"hola"<<endl;
-    //implemente un  programa que reciba un número por teclado e indique si dicho número es PERFECTO WHILE-FOR
-    cout <<"coloque su número(FOR)"<<endl;
+    //implemente un  programa que reciba un nÃºmero por teclado e indique si dicho nÃºmero es PERFECTO WHILE-FOR
+    cout <<"coloque su nÃºmero(FOR)"<<endl;
     int number;
     cin>> number;
-    cout <<"¿"<<number <<" es un número perfecto?"<<endl;
+    cout <<"Â¿"<<number <<" es un nÃºmero perfecto?"<<endl;
     cout <<"suma de divisores ="<< '\t';
     int contador=0;
     for (int divisor=1; divisor<=(number/2); divisor++)
@@ -135,16 +135,16 @@ int main()
     cout <<"= "<< contador << endl;
     if (contador==number)
     {
-        cout<<number<<" es un número perfecto"<< endl;
+        cout<<number<<" es un nÃºmero perfecto"<< endl;
     }
     else
     {
-        cout << number << " no es un número perfecto"<< endl;
+        cout << number << " no es un nÃºmero perfecto"<< endl;
     }
 
-    cout <<"coloque su número(WHILE)"<<endl;
+    cout <<"coloque su nÃºmero(WHILE)"<<endl;
     cin>> number;
-    cout <<"¿"<<number <<" es un número perfecto?"<<endl;
+    cout <<"Â¿"<<number <<" es un nÃºmero perfecto?"<<endl;
     cout <<"suma de divisores ="<< '\t';
     contador=0;
     divisor=1;
@@ -160,11 +160,11 @@ int main()
     cout <<"= "<< contador << endl;
     if (contador==number)
     {
-        cout<<number<<" es un número perfecto"<< endl;
+        cout<<number<<" es un nÃºmero perfecto"<< endl;
     }
     else
     {
-        cout << number << " no es un número perfecto"<< endl;
+        cout << number << " no es un nÃºmero perfecto"<< endl;
     }
 
 
